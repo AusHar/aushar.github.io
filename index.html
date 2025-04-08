@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +8,67 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="logo">LOGO</div>
+        <div class="logo">
+            <img src="assets/logo.png" alt="Taniti Logo">
+        </div>
+        <div class="separator"></div>
+        <div class="intro">
+            <h1>Welcome to Taniti</h1>
+            <h2>Explore the Island</h2>
+        </div>
+        <!-- Nav -->
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Activities</a></li>
-                <li><a href="#">Lodging</a></li>
-                <li><a href="#">Food</a></li>
-                <li><a href="#">Relax</a></li>
-                <li><a href="#">Nightlife</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="lodging.html">Lodging</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="relax.html">Relax</a></li>
+                <li><a href="nightlife.html">Nightlife</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <!-- Hero -->
     <section class="hero">
+        <img src="assets/hero.jpg" alt="Hero Image">
         <h1>Welcome to Taniti</h1>
+        <p>Paradise awaits on the wonderful island of Taniti. <br><br>Located just 300 miles off the coast of Florida, Tahini offers a luxrious island vacation without the headache of travel.</p>
+        <br>
         <button>Plan Your Adventure</button>
     </section>
 
     <!-- Main Content -->
     <section class="content">
-        <div class="category">
-            <img src="assets/adventure.jpg" alt="Adventure">
-            <h1>Adventure</h1>
-            <h2>Experience the thrill of the island!</h2>
+        <div class="category adventure-category">
+            <a href="activities.html">
+                <img src="assets/adventure.jpg" alt="Activities">
+            </a>
+            <h1><a href="activities.html">Adventure</a></h1>
+            <h2>Experience the thrill of the Island!</h2>
         </div>
-        <div class="category">
-            <img src="assets/relax.jpg" alt="Relaxation">
-            <h1>Relaxation</h1>
-            <h2>Unwind and rejuvenate in paradise!</h2>
+        <div class="category relax-category">
+            <a href="relax.html">
+                <img src="assets/relax.jpg" alt="Relaxation">
+            </a>
+            <h1><a href="relax.html">Relaxation</a></h1>
+            <h2>Unwind and rejuvenate in paradise</h2>
         </div>
-        <div class="category">
-            <img src="assets/nightlife.jpg" alt="Nightlife">
-            <h1>Nightlife</h1>
-            <h2>Live la vida loca!</h2>
+        <div class="category nightlife-category">
+            <a href="nightlife.html">
+                <img src="assets/nightlife.jpg" alt="Nightlife">
+            </a>
+            <h1><a href="nightlife.html">Nightlife</a></h1>
+            <h2>Experience the thrill of the Island!</h2>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p></p>
+        <p>&copy; 2025 Taniti Tourism. All rights reserved. | Designed and developed by Austin Harlan.</p>
     </footer>
 </body>
+
 </html>
