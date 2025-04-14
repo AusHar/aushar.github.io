@@ -84,6 +84,15 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Active page indicator for positional awareness */
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #ff6600;
+    text-decoration: wavy underline;
+    color: #ff6600;
+}
+
 /* Hero */
 .hero {
     position: relative;
