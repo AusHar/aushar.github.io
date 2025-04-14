@@ -248,3 +248,8 @@ footer {
 footer p {
     margin: 0;
 }
+
+footer a:link {
+    color: #ff6600;
+    text-decoration: none;
+}
